@@ -22,11 +22,11 @@ file_path = "response_log.txt"
 time.sleep(2)
 with open(file_path, "w") as file:
     current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(current_time, "---- Clearing previous data in response_log file")
-    file.write(" ---- Cleared Previous Data. New log data incoming....\n\n")
+    print(current_time, " Clearing previous data in response_log file")
+    file.write("Cleared Previous Data. New log data incoming....\n\n")
 time.sleep(2)
 
-print("Script started. Fetching content from {}...".format(url))
+print("Script started! Fetching content from {}...".format(url))
 time.sleep(2)
 counter = 0
 while True: 
